@@ -1,0 +1,8 @@
+Internet
+Unix
+Bash
+Kernel
+Shell
+Comandos
+Terminal
+Processos
