@@ -1,0 +1,118 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 15px 15px 25px;
+}
+
+.header{
+    background-color: darkslategray;
+    color: whitesmoke;
+}
+
+.title{
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 0;
+    border: 2px solid aquamarine;
+}
+
+.navigation-area{
+    border: 2px solid aquamarine;
+    margin-bottom: 20px;
+}
+
+.navigation-area li{
+    list-style: none;
+    display: inline;
+    margin-right: 100px;
+    font-size: large;
+}
+
+.navigation-area li a{
+    color: whitesmoke;
+    text-decoration: solid;
+}
+
+.table-content td{
+    font-size: 90%;       
+}
+
+.table th{
+    background-color:aquamarine
+}
+
+.table{
+    margin-top: 30px;
+    border-collapse: collapse;
+    width: 800px;
+}
+
+.table th, .table-content td{
+    border: 2px solid darkslategray;
+    margin: 0;
+    text-align: center;
+    padding: 8px;
+}
+
+.information-container{
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+p{
+    text-align: justify;
+    margin-right: 25px;
+}
+
+.image-container{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgb(63, 206, 206);
+}
+
+.text-right{
+    display: inline-block;
+    width: 525px;
+    vertical-align: top;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+
+.ref{
+    margin-bottom: 40px;
+}
+
+.ref li{
+    line-height: 30px;
+}
+
+.article{
+    display: inline-block;
+    width: 1105px;
+}
+
+.aside-bar{
+    padding: 15px;
+    background-color: rgba(47, 79, 79, 0.904);
+    width: 170px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    line-height: 25px;
+    height: 2045px;            
+}
+
+.aside-bar p{
+    font-size: large;
+    font-weight: 800;
+}
+
+.aside-bar p a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.footer{
+    margin: 20px 0;
+    padding-left: 10px;
+}
