@@ -4,9 +4,11 @@ const a = 45;
 const b = 83;
 const c = 5;
 
-if (a >= b && a >= c) {
+if (a >= b &&
+    a >= c) {
     console.log("The gratest number is =", a);
-} else if (b >= a && b >= c) {
+} else if (b >= a &&
+    b >= c) {
     console.log("The gratest number is =", b);
 } else {
     console.log("The gratest number is =", c);   
