@@ -7,4 +7,4 @@ for (let i = 0; i < numbers.length; i += 1) {
     sum += numbers[i];
 }
 
-console.log("The total sum of values is = " + sum);
+console.log("The total sum of the values is = " + sum);
