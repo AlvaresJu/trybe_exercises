@@ -5,7 +5,7 @@ let array = ['java', 'javascript', 'python', 'html', 'css'];
 let biggestWord = array[0];
 let smallestWord = array[0];
 
-for (i = 1; i < array.length; i += 1) {
+for (let i = 1; i < array.length; i += 1) {
     if (array[i].length > biggestWord.length) {
         biggestWord = array[i];
     }
