@@ -4,9 +4,9 @@ const n = 50;
 
 let maximumPrimeNumber = 2;
 
-for (i = 3; i <= n; i += 1) {
+for (let i = 3; i <= n; i += 1) {
     let dividerCounter = 0;
-    for (j = 2; j < i; j += 1) {
+    for (let j = 2; j < i; j += 1) {
         if (i % j === 0) {
             dividerCounter += 1;
             break;
@@ -22,9 +22,9 @@ console.log ("The maximum prime number is = " + maximumPrimeNumber);
 
 // Maneira otimizada de resolver o problema:
 
-// for (i = n; i > maximumPrimeNumber; i -= 1) {
+// for (let i = n; i > maximumPrimeNumber; i -= 1) {
 //     let dividerCounter = 0;
-//     for (j = 2; j < i; j += 1) {
+//     for (let j = 2; j < i; j += 1) {
 //         if (i % j === 0) {
 //             dividerCounter += 1;
 //             break;
