@@ -4,7 +4,7 @@ let word = 'trybe';
 
 let reversedWord = "";
 
-for (i = word.length - 1; i >= 0; i -= 1) {
+for (let i = word.length - 1; i >= 0; i -= 1) {
     reversedWord += word[i];
 }
 
