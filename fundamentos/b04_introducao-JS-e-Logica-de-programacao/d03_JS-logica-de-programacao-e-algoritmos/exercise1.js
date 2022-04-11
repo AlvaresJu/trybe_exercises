@@ -4,8 +4,8 @@ const n = 10;
 
 if (n >= 1) {
     let factorial = 1;
-    for (i = 1; i <= n; i += 1) {
-        factorial = factorial * i;
+    for (let i = 1; i <= n; i += 1) {
+        factorial *= i;
     }
     console.log(n + "! = " + factorial);
 } else {
