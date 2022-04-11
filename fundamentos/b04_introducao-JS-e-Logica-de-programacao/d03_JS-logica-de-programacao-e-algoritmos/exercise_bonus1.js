@@ -2,10 +2,14 @@
 
 const n = 5;
 
-for (rows = 1; rows <= n; rows += 1) {
-    asteriskRow = "";
-    for (columns = 1; columns <= n; columns += 1) {
-        asteriskRow += "*";
+if (n > 1) {
+    for (rows = 1; rows <= n; rows += 1) {
+        asteriskRow = "";
+        for (columns = 1; columns <= n; columns += 1) {
+            asteriskRow += "*";
+        }
+        console.log(asteriskRow);
     }
-    console.log(asteriskRow);
+} else {
+    console.log ("n need to be a number > 1");
 }
