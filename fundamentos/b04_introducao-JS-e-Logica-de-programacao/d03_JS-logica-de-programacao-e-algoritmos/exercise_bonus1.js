@@ -3,9 +3,9 @@
 const n = 5;
 
 if (n > 1) {
-    for (rows = 1; rows <= n; rows += 1) {
+    for (let rows = 1; rows <= n; rows += 1) {
         asteriskRow = "";
-        for (columns = 1; columns <= n; columns += 1) {
+        for (let columns = 1; columns <= n; columns += 1) {
             asteriskRow += "*";
         }
         console.log(asteriskRow);
