@@ -5,17 +5,33 @@ Multiplicação (a * b)
 Divisão (a / b)
 Módulo (a % b) */
 
-const a = 41;
-const b = 38;
+function sum (a, b) {
+    resultSum = a + b;
+    return "The sum is = " + resultSum;
+}
 
-let sum = a + b;
-let sub = a - b;
-let mult = a * b;
-let div = a / b;
-let mod = a % b;
+function sub (a, b) {
+    resultSub = a - b;
+    return "The subtraction is = " + resultSub;
+}
 
-console.log("The sum is =", sum);
-console.log("The subtraction is =", sub);
-console.log("The multiplication is =", mult);
-console.log("The division is =", div);
-console.log("The module is =", mod);
+function mult (a, b) {
+    resultMult = a * b;
+    return "The multiplication is = " + resultMult;
+}
+
+function div (a, b) {
+    resultDiv = a / b;
+    return "The division is = " + resultDiv;
+}
+
+function mod (a, b) {
+    resultMod = a % b;
+    return "The module is = " + resultMod;
+}
+
+console.log(sum (41, 38));
+console.log(sub (41, 38));
+console.log(mult (41, 38));
+console.log(div (41, 38));
+console.log(mod (41, 38));
