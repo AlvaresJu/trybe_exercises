@@ -9,6 +9,7 @@ function fruitsInBasket (basket) {
         for (let key in numberOfFruitsInBasket) {            
             if (basket[i] === key) {
                 containedInTheObject = true;
+                break;
             }
         }
         if (containedInTheObject === false) { 
