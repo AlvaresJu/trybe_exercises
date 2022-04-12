@@ -5,6 +5,7 @@ function palimdrome (word) {
     for (let i = 0; i < word.length; i += 1) {
         if (word[i] !== word[word.length - 1 - i]) {
             isPalimdrome = false;
+            break;
         }
     }
     return isPalimdrome;
