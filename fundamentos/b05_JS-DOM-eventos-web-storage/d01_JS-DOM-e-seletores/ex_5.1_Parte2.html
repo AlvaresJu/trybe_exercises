@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+  <body>
+    <header>
+      <h2 id="page-title">Título</h2>
+      <p id="paragraph">Dê uma cor para este parágrafo!</p>
+      <h4 id="subtitle">Subtítulo</h4>
+      <p id="second-paragraph">Segundo parágrafo!</p>
+    </header>
+    <script>
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.color = "red";
+
+      const title = document.getElementById("page-title");
+      title.innerText = "Ratatouille";
+
+      const subtitle = document.getElementById("subtitle");
+      subtitle.innerText = "Ratatouille sinopse";
+      subtitle.style.backgroundColor = "lightgray";
+
+      const sinopse = document.getElementById("second-paragraph");
+      sinopse.innerText = "Remy reside em Paris e possui um sofisticado paladar. Seu sonho é se tornar um chef de cozinha e desfrutar as diversas obras da arte culinária. O único problema é que ele é um rato. Quando se acha dentro de um dos restaurantes mais finos de Paris, Remy decide transformar seu sonho em realidade. (Fonte: Google)";
+      sinopse.style.fontStyle = "italic";
+      
+      let paragraphsCollection = document.getElementsByTagName("p");
+      for (i = 0; i < paragraphsCollection.length; i += 1) {
+        paragraphsCollection[i].className = "text";
+      }
+
+      const firstParagraph = document.getElementsByClassName("text")[0];
+      firstParagraph.style.fontSize = "small";
+
+      const h4 = document.getElementsByTagName("h4")[0];
+      h4.style.color = "blue";
+
+    </script>
+  </body>
+</html>
