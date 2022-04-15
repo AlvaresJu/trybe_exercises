@@ -56,13 +56,15 @@
         console.log(changeTextInP(1, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste rem assumenda harum repellendus, non, aspernatur quis enim autem neque necessitatibus ex, omnis incidunt laboriosam porro officiis. Obcaecati alias accusantium ratione deserunt ad officia. Adipisci voluptas laborum nostrum itaque? Ut corrupti eaque ea maiores repellendus. Facilis doloremque corporis optio omnis quas."));
         
         // 2.Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
-        const mainContent = document.getElementsByClassName("main-content")[0];
-        mainContent.style.backgroundColor = "rgb(76,164,109)";
+        function changeContentColor (className, index, color) {
+            const content = document.getElementsByClassName(className)[index];
+            return content.style.backgroundColor = color;
+        }
+        console.log(changeContentColor("main-content", 0, "rgb(76,164,109)"));
 
         // 3.Crie uma função que mude a cor do quadrado vermelho para branco.
-        const centerContent = document.getElementsByClassName("center-content")[0];
-        centerContent.style.backgroundColor = "white";
-
+        console.log(changeContentColor("center-content", 0, "white"));
+       
         // 4.Crie uma função que corrija o texto da tag <h1>.
         const title = document.getElementsByClassName("title")[0];
         title.innerText = "Exercício 5.1 - JavaScript (Funções de manipulação do DOM)";
