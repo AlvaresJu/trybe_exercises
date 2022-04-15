@@ -49,8 +49,11 @@
         - document.getElementsByTagName()
         */
         /* 1. Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício) */
-        const text = document.getElementsByTagName("p")[1];     
-        text.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste rem assumenda harum repellendus, non, aspernatur quis enim autem neque necessitatibus ex, omnis incidunt laboriosam porro officiis. Obcaecati alias accusantium ratione deserunt ad officia. Adipisci voluptas laborum nostrum itaque? Ut corrupti eaque ea maiores repellendus. Facilis doloremque corporis optio omnis quas.";
+        function changeTextInP (index, textToInclude) {
+            const text = document.getElementsByTagName("p")[index];     
+            return text.innerText = textToInclude;
+        }
+        console.log(changeTextInP(1, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste rem assumenda harum repellendus, non, aspernatur quis enim autem neque necessitatibus ex, omnis incidunt laboriosam porro officiis. Obcaecati alias accusantium ratione deserunt ad officia. Adipisci voluptas laborum nostrum itaque? Ut corrupti eaque ea maiores repellendus. Facilis doloremque corporis optio omnis quas."));
         
         // 2.Crie uma função que mude a cor do quadrado amarelo para o verde da Trybe (rgb(76,164,109)).
         const mainContent = document.getElementsByClassName("main-content")[0];
@@ -65,6 +68,7 @@
         title.innerText = "Exercício 5.1 - JavaScript (Funções de manipulação do DOM)";
 
         // 5.Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+        
 
         // 6.Crie uma função que exiba o conteúdo de todas as tags <p> no console.
     </script>
