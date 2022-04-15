@@ -82,6 +82,13 @@
         console.log(transformAllPText("uppercase"));
 
         // 6.Crie uma função que exiba o conteúdo de todas as tags <p> no console.
+        function printAllTagText (tag) {
+            const tagContent = document.getElementsByTagName(tag);
+            for (i = 0; i < tagContent.length; i += 1) {
+                console.log(tagContent[i].innerText);
+            }
+        }
+        console.log(printAllTagText("p"));
     </script>
   </body>
 </html>
