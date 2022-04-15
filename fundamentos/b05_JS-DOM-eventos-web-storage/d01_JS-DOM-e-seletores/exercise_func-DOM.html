@@ -68,12 +68,18 @@
         // 4.Crie uma função que corrija o texto da tag <h1>.
         function changeH1Content (index, newText) {
             const title = document.getElementsByTagName("h1")[index];
-            title.innerText = newText;
+            return title.innerText = newText;
         }
         console.log(changeH1Content(0, "Exercício 5.1 - JavaScript (Funções de manipulação do DOM)"));
 
         // 5.Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
-        
+        function transformAllPText (textStyle) {
+            const pContent = document.getElementsByTagName("p");
+            for (i = 0; i < pContent.length; i += 1) {
+                pContent[i].style.textTransform = textStyle;
+            }
+        }
+        console.log(transformAllPText("uppercase"));
 
         // 6.Crie uma função que exiba o conteúdo de todas as tags <p> no console.
     </script>
