@@ -49,9 +49,9 @@
         - document.getElementsByTagName()
         */
         /* 1. Crie uma função que mude o texto na tag <p> para uma descrição de como você se vê daqui a 2 anos. (Não gaste tempo pensando no texto e sim realizando o exercício) */
-        function changeTextInP (index, textToInclude) {
+        function changeTextInP (index, newText) {
             const text = document.getElementsByTagName("p")[index];     
-            return text.innerText = textToInclude;
+            return text.innerText = newText;
         }
         console.log(changeTextInP(1, "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste rem assumenda harum repellendus, non, aspernatur quis enim autem neque necessitatibus ex, omnis incidunt laboriosam porro officiis. Obcaecati alias accusantium ratione deserunt ad officia. Adipisci voluptas laborum nostrum itaque? Ut corrupti eaque ea maiores repellendus. Facilis doloremque corporis optio omnis quas."));
         
@@ -66,8 +66,11 @@
         console.log(changeContentColor("center-content", 0, "white"));
        
         // 4.Crie uma função que corrija o texto da tag <h1>.
-        const title = document.getElementsByClassName("title")[0];
-        title.innerText = "Exercício 5.1 - JavaScript (Funções de manipulação do DOM)";
+        function changeH1Content (index, newText) {
+            const title = document.getElementsByTagName("h1")[index];
+            title.innerText = newText;
+        }
+        console.log(changeH1Content(0, "Exercício 5.1 - JavaScript (Funções de manipulação do DOM)"));
 
         // 5.Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
         
