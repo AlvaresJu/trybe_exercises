@@ -23,9 +23,10 @@
 
     <script>
       // 1. Crie um irmão para elementoOndeVoceEsta.
+      const pai = document.getElementById("pai");
       const newSection = document.createElement("section");
       newSection.innerText = "Irmão do elementoOndeVoceEsta";
-      document.getElementById("pai").appendChild(newSection);
+      pai.appendChild(newSection);
 
       // 2. Crie um filho para elementoOndeVoceEsta.
       const ondeVoceEsta = document.getElementById("elementoOndeVoceEsta");
