@@ -28,7 +28,10 @@
       document.getElementById("pai").appendChild(newSection);
 
       // 2. Crie um filho para elementoOndeVoceEsta.
-      
+      const ondeVoceEsta = document.getElementById("elementoOndeVoceEsta");
+      const filhoDeOndeVoceEsta = document.createElement("section");
+      filhoDeOndeVoceEsta.innerText = "Filho do elementoOndeVoceEsta";
+      ondeVoceEsta.appendChild(filhoDeOndeVoceEsta);
 
       // 3. Crie um filho para primeiroFilhoDoFilho.
 
