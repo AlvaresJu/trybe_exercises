@@ -76,7 +76,7 @@
       // 4. Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;
       const pOfSection1 = document.createElement("p");
       section1.appendChild(pOfSection1);
-      pOfSection1.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quibusdam, totam asperiores temporibus qui ipsum tenetur sint adipisci dolorum quos illum cum aut id sapiente libero consequuntur nisi voluptatum vitae voluptatem quisquam ad quaerat accusantium quam? Labore distinctio facere facilis cum, vel dignissimos itaque consequatur hic. Ut, error suscipit cum id laboriosam iusto soluta numquam asperiores ratione praesentium, laborum voluptatum expedita, quod quos! Rem maiores blanditiis, sunt non voluptatem beatae doloribus? Placeat animi enim eveniet quo possimus fuga eligendi hic maxime voluptates ex, dolores sapiente non quisquam eos! Quidem eligendi expedita eius! Corporis dolorem aperiam officia voluptatum sapiente ipsam quia soluta culpa vero harum enim, unde qui. Unde ea dicta doloremque ex dignissimos voluptates accusamus. Labore, odit atque.";
+      pOfSection1.innerText = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore distinctio facere facilis cum, vel dignissimos itaque consequatur hic. Ut, error suscipit cum id laboriosam iusto soluta numquam asperiores ratione praesentium, laborum voluptatum expedita, quod quos! Rem maiores blanditiis, sunt non voluptatem beatae doloribus? Placeat animi enim eveniet quo possimus fuga eligendi hic maxime voluptates ex, dolores sapiente non quisquam eos! Quidem eligendi expedita eius! Corporis dolorem aperiam officia voluptatum sapiente ipsam quia soluta culpa vero harum enim, unde qui. Unde ea dicta doloremque ex dignissimos voluptates accusamus.";
 
       // 5. Adicione a tag section com a classe left-content como filho da tag main criada no passo 2;
       const section2 = document.createElement("section");
@@ -95,8 +95,41 @@
       image.src = "https://picsum.photos/200";
 
       // 8. Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um , dois , três , ... como valores da lista. Essa lista deve ser filha do section criado no passo 6;
+      const list = document.createElement("ul");
+      section3.appendChild(list);
+
+      for (i = 0; i < 10; i += 1) {
+        let itemList = document.createElement("li");
+        list.appendChild(itemList);
+      }
+
+      let numbers = {
+        um: 1,
+        dois: 2,
+        tres: 3,
+        quatro: 4,
+        cinco: 5,
+        seis: 6,
+        sete: 7,
+        oito: 8,
+        nove: 9,
+        dez: 10,
+      }
+      const itemsList = document.querySelectorAll(".right-content ul li");
+      for (let key in numbers) {
+        for (i = 0; i < itemsList.length; i += 1) {
+          if (numbers[key] === i + 1) {
+            itemsList[i].innerText = `${key}`;
+            break;
+          }
+        }
+      }
 
       // 9. Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
+      for (i = 0; i < 3; i += 1) {
+        let titles3 = document.createElement("h3");
+        main.appendChild(titles3);
+      }
 
       // 10. Adicione a classe title na tag h1 criada;
 
