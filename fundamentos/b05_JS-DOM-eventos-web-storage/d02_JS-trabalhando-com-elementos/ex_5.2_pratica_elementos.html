@@ -127,14 +127,18 @@
 
       // 9. Adicione 3 tags h3 , todas sendo filhas do main criado no passo 2.
       for (i = 0; i < 3; i += 1) {
-        let titles3 = document.createElement("h3");
-        main.appendChild(titles3);
+        let title3 = document.createElement("h3");
+        main.appendChild(title3);
       }
 
       // 10. Adicione a classe title na tag h1 criada;
       title1.className = "title";
 
       // 11. Adicione a classe description nas 3 tags h3 criadas;
+      const titles3 = document.querySelectorAll(".main-content h3");
+      for (i = 0; i < 3; i += 1) {
+        titles3[i].className = "description";
+      }
 
       // 12. Remova a section criado no passo 5 (aquele que possui a classe left-content ). Utilize a função .removeChild();
 
