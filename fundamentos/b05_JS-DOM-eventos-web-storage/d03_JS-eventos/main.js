@@ -26,6 +26,12 @@ for (let index = 0; index < elementLi.length; index += 1) {
 
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
+function changeTechElement () {
+    let techElement = document.querySelector('.tech');
+    techElement.innerText = input.value;
+}
+
+input.addEventListener('change', changeTechElement);
 
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
