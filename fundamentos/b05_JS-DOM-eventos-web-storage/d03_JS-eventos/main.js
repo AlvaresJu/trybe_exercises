@@ -37,7 +37,7 @@ input.addEventListener('change', changeTechElement);
 // redirecione para alguma página;
 // 4.1. Que tal redirecionar para seu portfólio?
 function myPortfolio () {
-    window.open('https://alvaresju.github.io/');
+    window.location.assign('https://alvaresju.github.io/');
 }
 
 myWebpage.addEventListener('dblclick', myPortfolio);
