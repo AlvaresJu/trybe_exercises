@@ -102,3 +102,24 @@ function createFridayButton (fridayString) {
 }
 
 createFridayButton ('Sexta-feira');
+
+/* Exercício 5: Implemente uma função que adicione ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira.
+É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial exibindo os dias. */
+
+function changeDezFridayText () {
+    const fridayButton = document.getElementById('btn-friday');
+
+    fridayButton.addEventListener('click', function () {
+        const fridays = document.querySelectorAll('.friday');
+        const fridayDays = [4, 11, 18, 25];
+        for (let index = 0; index < fridays.length; index += 1) {
+            if (fridays[index].innerHTML === 'sextou') {
+                fridays[index].innerHTML = fridayDays[index];
+            } else {
+                fridays[index].innerHTML = 'sextou';
+            }
+        }
+    });
+}
+
+changeDezFridayText ();
