@@ -172,3 +172,19 @@ function taskLabel (colorName) {
 }
 
 taskLabel ('salmon');
+
+/* Exercício 9: Implemente uma função que adiciona um evento que, ao clicar no elemento com a tag <div> referente a cor da sua tarefa, atribua a este elemento a classe task selected, ou seja, quando sua tarefa possuir a classe task selected, ela estará selecionada.
+Ao clicar novamente no elemento, a sua classe deverá voltar a ser somente task, ou seja, esta tarefa está deixando de ser uma tarefa selecionada. */
+
+function taskSelection () {
+    const taskSelector = document.querySelector('.task');
+    taskSelector.addEventListener('click', function () {
+        if (taskSelector.className === 'task') {
+            taskSelector.classList.add('task-selected');
+        } else {
+            taskSelector.classList.remove('task-selected');
+        }
+    })
+}
+
+taskSelection ();
