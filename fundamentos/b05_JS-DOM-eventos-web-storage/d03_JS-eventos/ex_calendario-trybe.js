@@ -104,6 +104,7 @@ function createFridayButton (fridayString) {
 createFridayButton ('Sexta-feira');
 
 /* Exercício 5: Implemente uma função que adicione ao botão "Sexta-feira" um evento de "click" que modifica o texto exibido nos dias que são Sexta-feira.
+
 É interessante que este botão possua também a lógica inversa. Ao ser clicado novamente ele retorna à configuração inicial exibindo os dias. */
 
 function changeDezFridayText () {
@@ -129,7 +130,7 @@ changeDezFridayText ();
 function zoomDay () {
     const days = document.querySelectorAll('.day');
 
-    for (index = 0; index < days.length; index += 1) {
+    for (let index = 0; index < days.length; index += 1) {
         days[index].addEventListener('mouseover', function (event) {
             event.target.style.fontSize = '2em';
             event.target.style.fontWeight = '600';
@@ -174,6 +175,7 @@ function taskLabel (colorName) {
 taskLabel ('salmon');
 
 /* Exercício 9: Implemente uma função que adiciona um evento que, ao clicar no elemento com a tag <div> referente a cor da sua tarefa, atribua a este elemento a classe task selected, ou seja, quando sua tarefa possuir a classe task selected, ela estará selecionada.
+
 Ao clicar novamente no elemento, a sua classe deverá voltar a ser somente task, ou seja, esta tarefa está deixando de ser uma tarefa selecionada. */
 
 function taskSelection () {
@@ -188,3 +190,27 @@ function taskSelection () {
 }
 
 taskSelection ();
+
+/* Exercício 10: Implemente uma função que adiciona um evento que, ao clicar em um dia do mês no calendário, atribua a este dia a cor da legenda da sua tarefa selecionada.
+
+Ao clicar novamente no dia com a cor da legenda, a sua cor deverá voltar à configuração inicial rgb(119,119,119). */
+
+function dayTask () {
+    const days = document.querySelectorAll('.day');
+    const taskColor = document.querySelector('.task').style.backgroundColor;
+
+    for (let index = 0; index < days.length; index += 1) {
+        days[index].addEventListener('click', function (event) {
+            let taskClass = document.querySelector('.my-tasks div').className;
+            if (taskClass !== 'task' && event.target.style.color !== taskColor) {
+                event.target.style.color = taskColor;
+            } else if (taskClass !== 'task' && event.target.style.color === taskColor) {
+                event.target.style.color = 'rgb(119,119,119)';
+            }
+        });
+    }
+}
+
+
+
+dayTask ();
