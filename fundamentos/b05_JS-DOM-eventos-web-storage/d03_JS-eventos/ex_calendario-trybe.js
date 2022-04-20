@@ -211,6 +211,37 @@ function dayTask () {
     }
 }
 
-
-
 dayTask ();
+
+/* Bônus: Implemente uma função que, ao digitar um compromisso na caixa de texto "COMPROMISSOS", adiciona o item à lista "MEUS COMPROMISSOS" ao clicar no botão "ADICIONAR".
+
+Se nenhum caractere for inserido no campo input , a função deve retornar um alert com uma mensagem de erro ao clicar em "ADICIONAR".
+
+Ao pressionar a tecla "enter" o evento também deverá ser disparado. */
+
+function addAppointment() {
+    const buttonAdd = document.getElementById('btn-add');
+    const appointmentInput = document.getElementById('task-input');
+
+    function registerAppointment () {
+        if (appointmentInput.value.length === 0) {
+            alert('Para adicionar é preciso escrever seu compromisso');
+        } else {
+            let newAppointment = document.createElement('li');
+            newAppointment.innerText = appointmentInput.value;
+            const appointmentList = document.querySelector('.task-list');
+            appointmentList.appendChild(newAppointment);
+            appointmentInput.value = '';
+        }
+    }
+
+    buttonAdd.addEventListener('click', registerAppointment);
+    appointmentInput.addEventListener('keyup', function(event) {
+        if (event.keyCode === 13) {
+            event.preventDefault();
+            registerAppointment();
+        }
+    });
+}
+
+addAppointment ();
