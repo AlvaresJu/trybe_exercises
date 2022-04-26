@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(112, 189, 157);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  padding: 15px;
+  background-color: whitesmoke;
+}
+
+header h1 {
+  text-align: center;
+  margin: 10px;
+  font-size: 40px;
+  color: darkslategrey;
+
+}
+
+main {
+  margin: 25px auto;
+  width: 70%;
+}
+
+#instructions {
+  color: rgb(32, 56, 56);
+  font-weight: 500;
+}
+
+#form-content {
+  background-color: whitesmoke;
+  border-radius: 10%;
+  border: 2px solid darkslategrey;
+  margin: 20px auto;
+  padding: 20px;
+}
