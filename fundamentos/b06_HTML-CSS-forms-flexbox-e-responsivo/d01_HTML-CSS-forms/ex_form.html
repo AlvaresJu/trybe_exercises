@@ -12,9 +12,21 @@
         <h1>Formulário TrybeTryp</h1>
     </header>
     <main>
-        <p id="instructions"><em>Preencha o formulário completo para concorrer ao concurso TrybeTrip, que premiará o vencedor com uma viagem totalmente paga.</em></p>
+        <section>
+            <p id="instructions"><em>Preencha o formulário completo para concorrer ao concurso TrybeTrip, que premiará o vencedor com uma viagem totalmente paga.</em></p>
+        </section>
 
         <section id="form-content">
+            <form action="" method="post">
+                <label for="name">Nome Completo:</label><br>
+                <input type="text" id="name" name="name" autofocus required minlength="10" maxlength="40">
+                <br><br>
+                <label for="email">E-mail:</label><br>
+                <input type="email" name="email" id="email" required minlength="10" maxlength="50">
+            </form>
+        </section>
+
+        <section id="buttons">
 
         </section>
     </main>

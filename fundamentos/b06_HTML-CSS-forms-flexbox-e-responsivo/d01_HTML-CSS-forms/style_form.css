@@ -24,7 +24,8 @@ header h1 {
 
 main {
   margin: 25px auto;
-  width: 70%;
+  width: 60%;
+  font-size: 16px;
 }
 
 #instructions {
@@ -37,5 +38,11 @@ main {
   border-radius: 10%;
   border: 2px solid darkslategrey;
   margin: 20px auto;
-  padding: 20px;
+  padding: 30px;
+}
+
+input[type='text'] , input[type='email'] {
+  padding: 7px;
+  font-size: 16px;
+  width: 100%;
 }
