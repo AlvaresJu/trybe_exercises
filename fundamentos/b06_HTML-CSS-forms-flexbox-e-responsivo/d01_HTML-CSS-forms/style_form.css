@@ -67,3 +67,7 @@ fieldset {
 #label-question {
   margin-top: 30px;
 }
+
+#date {
+  width: 45%;
+}
