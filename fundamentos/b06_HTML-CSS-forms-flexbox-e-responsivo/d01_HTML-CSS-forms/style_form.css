@@ -38,11 +38,25 @@ main {
   border-radius: 10%;
   border: 2px solid darkslategrey;
   margin: 20px auto;
-  padding: 30px;
+  padding: 25px;
 }
 
-input[type='text'] , input[type='email'] {
-  padding: 7px;
+.form-line {
+  margin: 20px auto;
+}
+
+.line-content {
+  padding: 10px;
   font-size: 16px;
   width: 100%;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+fieldset {
+  height: 65px;
+}
+
+.radio-item {
+  margin-left: 20px;
 }

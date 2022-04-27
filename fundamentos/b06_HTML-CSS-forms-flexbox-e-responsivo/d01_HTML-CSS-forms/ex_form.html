@@ -18,11 +18,24 @@
 
         <section id="form-content">
             <form action="" method="post">
-                <label for="name">Nome Completo:</label><br>
-                <input type="text" id="name" name="name" autofocus required minlength="10" maxlength="40">
-                <br><br>
-                <label for="email">E-mail:</label><br>
-                <input type="email" name="email" id="email" required minlength="10" maxlength="50">
+                <div class="form-line">
+                    <label for="name">Nome Completo:</label>
+                    <input type="text" id="name" name="name" autofocus required minlength="10" maxlength="40" class="line-content">
+                </div>
+                <div class="form-line">
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" required minlength="10" maxlength="50" class="line-content">
+                </div>
+                <div class="form-line">
+                    <fieldset class="line-content">
+                        <legend>Destino Preferido:</legend>
+                        <label for="trip1" class="radio-item"><input type="radio" name="trip-option" id="trip1" value="cidade"> Cidade</label>
+                        <label for="trip2" class="radio-item"><input type="radio" name="trip-option" id="trip2" value="campo"> Campo</label>
+                        <label for="trip3" class="radio-item"><input type="radio" name="trip-option" id="trip3" value="praia"> Praia</label>
+                        <label for="trip4" class="radio-item"><input type="radio" name="trip-option" id="trip4" value="montanha"> Montanha</label>
+                    </fieldset>
+                </div>
+                
             </form>
         </section>
 
