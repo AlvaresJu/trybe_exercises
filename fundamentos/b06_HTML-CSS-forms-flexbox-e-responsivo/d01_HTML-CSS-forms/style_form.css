@@ -12,6 +12,10 @@ body {
 header {
   padding: 15px;
   background-color: whitesmoke;
+  margin: 20px auto;
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid darkslategrey;
 }
 
 header h1 {
@@ -19,7 +23,6 @@ header h1 {
   margin: 10px;
   font-size: 40px;
   color: darkslategrey;
-
 }
 
 main {
@@ -35,8 +38,8 @@ main {
 
 #form-content {
   background-color: whitesmoke;
-  border-radius: 10%;
-  border: 2px solid darkslategrey;
+  border-radius: 10px;
+  border: 1px solid darkslategrey;
   margin: 20px auto;
   padding: 25px;
 }
@@ -59,4 +62,8 @@ fieldset {
 
 .radio-item {
   margin-left: 20px;
+}
+
+#label-question {
+  margin-top: 30px;
 }
