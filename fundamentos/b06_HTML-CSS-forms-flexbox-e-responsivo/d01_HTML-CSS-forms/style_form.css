@@ -36,7 +36,7 @@ main {
   font-weight: 500;
 }
 
-#form-content {
+#form-container {
   background-color: whitesmoke;
   border-radius: 10px;
   border: 1px solid darkslategrey;
@@ -71,4 +71,16 @@ fieldset {
 #date {
   width: 45%;
   margin-bottom: 15px;
+}
+
+.button {
+  margin-left: 20px;
+  padding: 15px;
+  width: fit-content;
+  font-size: 17px;
+  border: 1px solid darkslategray;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: darkslategray;
+  color: whitesmoke;
 }
