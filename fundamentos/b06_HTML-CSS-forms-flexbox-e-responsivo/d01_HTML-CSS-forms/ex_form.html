@@ -21,11 +21,11 @@
                 <div id="form-container">
                     <div class="form-line">
                         <label for="name">Nome Completo:</label>
-                        <input type="text" id="name" name="name" autofocus required minlength="10" maxlength="40" class="line-content">
+                        <input type="text" id="name" name="name" autofocus required class="line-content">
                     </div>
                     <div class="form-line">
                         <label for="email">E-mail:</label>
-                        <input type="email" name="email" id="email" required minlength="10" maxlength="50" class="line-content">
+                        <input type="email" name="email" id="email" required class="line-content">
                     </div>
                     <div class="form-line">
                         <fieldset class="line-content">
@@ -38,7 +38,7 @@
                     </div>
                     <div class="form-line" id="label-question">
                         <label for="question">Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</label>
-                        <textarea name="question" id="question" rows="5" required maxlength="500" class="line-content" placeholder="Escreva aqui sua resposta em até 500 caracteres."></textarea>
+                        <textarea name="question" id="question" rows="5" required class="line-content" placeholder="Escreva aqui sua resposta em até 500 caracteres."></textarea>
                     </div>
                     <div class="form-line">
                         <label for="date">Qual a melhor data para realizar sua viagem?</label><br>
@@ -53,7 +53,7 @@
                 </div>
                 <div id="buttons">
                     <button type="submit" class="button disabled" id="submit-button" disabled>Enviar</button>
-                    <button type="reset" class="button">Limpar Dados</button>
+                    <button type="reset" class="button" id="reset-button">Limpar Dados</button>
                 </div>
             </form>
         </section>
@@ -65,14 +65,48 @@
         });
 
         const imageAgreement = document.getElementById('agreement2');
-        imageAgreement.addEventListener('click', function() {
-           if (imageAgreement.checked === true) {
+
+        function changeSubmitButtonStatus () {
+            if (imageAgreement.checked === true) {
             submitButton.disabled = false;
             submitButton.classList.remove('disabled');
            } else {
             submitButton.disabled = true;
             submitButton.classList.add('disabled');
            }
+        }
+
+        imageAgreement.addEventListener('click', changeSubmitButtonStatus);
+
+        const resetButton = document.getElementById('reset-button');
+        resetButton.addEventListener('mouseleave', changeSubmitButtonStatus);
+
+        function checkLength (min, max, input) {
+            let length = input.value.length;
+            let lengthOk;
+            if (length >= min && length <= max) {
+                lengthOk = true;
+            } else {
+                lengthOk = false;
+            }
+            return lengthOk;
+        }
+        
+        submitButton.addEventListener('click', function() {
+            const inputName = document.getElementById('name');
+            const inputEmail = document.getElementById('email');
+            const inputText = document.getElementById('question');
+            const dateContent = document.getElementById('date').value;
+
+            let nameLengthOk = checkLength(10, 40, inputName);
+            let emailLengthOk = checkLength(10, 50, inputEmail);
+            let textLengthOk = checkLength(10, 500, inputText);
+
+            if (nameLengthOk && emailLengthOk && textLengthOk && dateContent !== '') {
+                alert('Dados enviados com sucesso! Obrigado por participar do concurso TrybeTrip.');
+            } else {
+                alert('Dados inválidos.');
+            }
         });
     </script>
 </body>
