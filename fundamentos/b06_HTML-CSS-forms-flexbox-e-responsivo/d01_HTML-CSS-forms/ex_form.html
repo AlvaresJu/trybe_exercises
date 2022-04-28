@@ -52,7 +52,7 @@
                     </div>
                 </div>
                 <div id="buttons">
-                    <button type="submit" class="button" id="submit-button">Enviar</button>
+                    <button type="submit" class="button disabled" id="submit-button" disabled>Enviar</button>
                     <button type="reset" class="button">Limpar Dados</button>
                 </div>
             </form>
@@ -62,6 +62,17 @@
         const submitButton = document.getElementById('submit-button');
         submitButton.addEventListener('click', function(event) {
             event.preventDefault();
+        });
+
+        const imageAgreement = document.getElementById('agreement2');
+        imageAgreement.addEventListener('click', function() {
+           if (imageAgreement.checked === true) {
+            submitButton.disabled = false;
+            submitButton.classList.remove('disabled');
+           } else {
+            submitButton.disabled = true;
+            submitButton.classList.add('disabled');
+           }
         });
     </script>
 </body>
