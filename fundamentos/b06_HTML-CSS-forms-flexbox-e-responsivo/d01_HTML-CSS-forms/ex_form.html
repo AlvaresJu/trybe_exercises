@@ -83,12 +83,10 @@
 
         function checkLength (min, max, input) {
             let length = input.value.length;
-            let lengthOk;
+            let lengthOk = false;
             if (length >= min && length <= max) {
                 lengthOk = true;
-            } else {
-                lengthOk = false;
-            }
+            } 
             return lengthOk;
         }
         
