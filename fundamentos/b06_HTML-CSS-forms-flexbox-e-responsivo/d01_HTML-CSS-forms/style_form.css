@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(112, 189, 157);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+  padding: 15px;
+  background-color: whitesmoke;
+  margin: 20px auto;
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid darkslategrey;
+}
+
+header h1 {
+  text-align: center;
+  margin: 10px;
+  font-size: 40px;
+  color: darkslategrey;
+}
+
+main {
+  margin: 25px auto;
+  width: 60%;
+  font-size: 16px;
+}
+
+#instructions {
+  color: rgb(32, 56, 56);
+  font-weight: 500;
+}
+
+#form-container {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  border: 1px solid darkslategrey;
+  margin: 20px auto;
+  padding: 25px;
+}
+
+.form-line {
+  margin: 20px auto;
+}
+
+.line-content {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 7px;
+}
+
+fieldset {
+  height: 65px;
+}
+
+.radio-item {
+  margin-left: 20px;
+}
+
+#label-question {
+  margin-top: 30px;
+}
+
+#date {
+  width: 45%;
+  margin-bottom: 15px;
+}
+
+.button {
+  margin-left: 20px;
+  padding: 15px;
+  width: fit-content;
+  font-size: 17px;
+  border: 1px solid darkslategray;
+  font-weight: 600;
+  border-radius: 5px;
+  background-color: darkslategray;
+  color: whitesmoke;
+}
+
+.disabled {
+  background-color: rgba(47, 79, 79, 0.233);
+}
