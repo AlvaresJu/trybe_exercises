@@ -70,6 +70,17 @@
   width: 160px;
 }
 
+#footer-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+#footer-content {
+  display: flex;
+  justify-content: space-between;
+}
+
 .social-img {
   width: 25px;
   margin-left: 10px;
