@@ -31,25 +31,13 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 img {
 	max-width: 100%;
 }
 
-main {
-
-}
-
-section {
-
-}
-
 figure {
-	margin: 0;
-}
-
-figcaption {
-  margin-bottom: 20px;
+	margin-bottom: 40px;
 }
