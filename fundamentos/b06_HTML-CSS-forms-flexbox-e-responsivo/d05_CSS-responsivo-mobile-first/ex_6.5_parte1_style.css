@@ -13,11 +13,17 @@
 }
 
 body {
-  margin: 20px 25px;
+  margin: 20px 30px;
 }
 
 article {
-  font-size: 20px;
+  font-size: 1.25rem;
+  margin: 20px auto;
+}
+
+article p {
+  margin-bottom: 10px;
+  text-align: justify;
 }
 
 h1 {
@@ -45,5 +51,5 @@ figure {
 }
 
 figcaption {
-  font-size: .8em;
+  margin-bottom: 20px;
 }
