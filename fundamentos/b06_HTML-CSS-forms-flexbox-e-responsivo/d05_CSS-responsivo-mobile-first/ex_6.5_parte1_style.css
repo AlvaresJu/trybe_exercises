@@ -62,6 +62,7 @@ section {
     font-size: 1.7rem;
     margin-bottom: 25px;
   }
+
   article p {
     margin-bottom: 15px;
   }
@@ -79,5 +80,35 @@ section {
 
   figure {
     width: 48%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  html {
+    margin: 0 80px;
+  }
+  
+  body {
+    background-color: rgb(217, 231, 213);
+    margin: 80px auto;
+    max-width: 940px;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+  }
+  
+  article p {
+    margin-bottom: 20px;
+  }
+
+  article {
+    font-size: 1.6rem;
+    margin: 40px auto;
   }
 }
