@@ -128,7 +128,7 @@ footer p {
   font-size: 1rem;
 }
 
-/* @media screen and (min-width: 600px) {
+@media screen and (min-width: 600px) {
   main {
     margin: 40px 50px;
   }
@@ -167,6 +167,24 @@ footer p {
   header a {
     font-size: 1.5rem;
   }
+
+  #show-menu {
+    font-size: 2.8rem;
+    padding-left: 30px;
+  }
+  
+  #menu li {
+    padding: 15px 15px;
+  }
+
+  #book-title {
+    font-size: 1.8rem;
+    font-weight: 900;
+  }
+
+  .open-close-titles {
+    margin-bottom: 20px;
+  }
   
   .aside-one {
     margin-top: 30px;
@@ -183,4 +201,17 @@ footer p {
     border-radius: 20px;
     max-width: 440px;
   }
-} */
+
+  .open-close-item {
+    font-size: 2.2rem;
+    padding: 0 45px;
+  }
+
+  footer {
+    padding: 25px 65px;
+  }
+  
+  footer p {
+    font-size: 1.3rem;
+  }
+}
