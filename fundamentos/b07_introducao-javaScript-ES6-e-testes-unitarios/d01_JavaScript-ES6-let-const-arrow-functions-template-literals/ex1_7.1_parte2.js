@@ -5,11 +5,12 @@ const fatorial = (number) => {
   if (number < 0) {
     console.log(`O número ${number} não possui fatorial`);
     return;
-  } else if (number > 0) {
-    for (let n = 1; n <= number; n += 1) {
-      result *= n;
-    }
   }
+
+  for (let n = 2; n <= number; n += 1) {
+    result *= n;
+  }
+  
   return console.log(`${number}! = ${result}`);
 }
 
