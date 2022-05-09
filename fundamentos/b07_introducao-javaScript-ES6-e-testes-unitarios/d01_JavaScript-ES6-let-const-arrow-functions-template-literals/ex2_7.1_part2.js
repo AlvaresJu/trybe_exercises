@@ -8,7 +8,7 @@ const longestWord = (phrase) => {
       longest = words[index];
     }
   }
-  return console.log(`A maior palavra da frase é: ${longest}`);
+  console.log(`A maior palavra da frase é: ${longest}`);
 }
 
 longestWord('Antônio foi no banheiro e não sabemos o que aconteceu');

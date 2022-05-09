@@ -11,7 +11,7 @@ const fatorial = (number) => {
     result *= n;
   }
   
-  return console.log(`${number}! = ${result}`);
+  console.log(`${number}! = ${result}`);
 }
 
 fatorial(9);
@@ -20,4 +20,4 @@ fatorial(9);
 
 const newFatorial = (number) => number > 1 ? number * newFatorial(number - 1) : 1;
 
-console.log(newFatorial(9));
+console.log(`9! = ${newFatorial(9)}`);
