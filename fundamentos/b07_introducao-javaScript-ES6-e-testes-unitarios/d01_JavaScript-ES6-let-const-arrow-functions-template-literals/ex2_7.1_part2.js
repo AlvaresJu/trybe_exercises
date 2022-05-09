@@ -12,3 +12,9 @@ const longestWord = (phrase) => {
 }
 
 longestWord('Antônio foi no banheiro e não sabemos o que aconteceu');
+
+
+
+const newLongestWord = (phrase) => console.log(`A maior palavra da frase é: ${phrase.split(' ').sort((a, b) => b.length - a.length)[0]}`);
+
+newLongestWord('Antônio foi no banheiro e não sabemos o que aconteceu');
