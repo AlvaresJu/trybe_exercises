@@ -53,10 +53,10 @@
       } catch (error) {
         showResult.innerHTML = error.message;
         throw error.message;
-      }  
-
-      document.getElementById('value1').value = '';
-      document.getElementById('value2').value = '';
+      } finally {
+        document.getElementById('value1').value = '';
+        document.getElementById('value2').value = '';
+      }
     }
 
     window.onload = () => {
