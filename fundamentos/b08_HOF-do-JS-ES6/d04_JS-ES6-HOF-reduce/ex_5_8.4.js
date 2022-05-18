@@ -7,7 +7,10 @@ const names = [
 ];
 
 function containsA(namesList) {
-  return namesList.reduce((aRepetitions, name) => aRepetitions + name.match(/a/gi).length, 0);
-}
+  return namesList.reduce((aRepetitions, name) => {
+    if (name.match(/a/gi) !== null) return aRepetitions + name.match(/a/gi).length;
+    return aRepetitions;
+  }, 0);
+};
 
 console.log(containsA(names));
