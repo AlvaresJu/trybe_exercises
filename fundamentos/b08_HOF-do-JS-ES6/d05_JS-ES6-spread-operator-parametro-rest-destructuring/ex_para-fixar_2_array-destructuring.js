@@ -4,9 +4,9 @@ let comida = 'gato';
 let animal = 'água';
 let bebida = 'arroz';
 
-// [comida = 'arroz', animal = 'gato', bebida = 'água'];
+[comida = 'arroz', animal = 'gato', bebida = 'água'];
 
-// Ou sriando o array e o desestruturando:
+// Ou criando o array e o desestruturando:
 // [comida, animal, bebida] = [bebida, comida, animal];
 
 console.log(comida, animal, bebida);
