@@ -6,20 +6,20 @@ _"A Trybe é uma escola do futuro para qualquer pessoa que queira mudar de vida 
 
 O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda introdução ao desenvolvimento de software, front-end, back-end, ciência da computação, engenharia de software, metodologias Ágeis e habilidades comportamentais.
 
-## Fundamentos do Desenvolvimento Web
+## Fundamentos do Desenvolvimento Web :white_check_mark:
 
 ##### Bloco 1: Unix & Bash :white_check_mark:
 
 - [x] 1-3: _Unix & Bash - Part 1_
 - [x] 1-4: _Unix & Bash - Part 2_
 
-##### Bloco 2: Git, GitHub e Internet :hourglass_flowing_sand:
+##### Bloco 2: Git, GitHub e Internet :white_check_mark:
 
 - [x] 2-1: _Git & GitHub - O que é e para que serve?_
 - [x] 2-2: _Git & GitHub - Entendendo os comandos_
 - [x] 2-3: _Internet - Entendendo como ela funciona_
 
-##### Bloco 3: Introdução - HTML & CSS
+##### Bloco 3: Introdução - HTML & CSS :white_check_mark:
 
 - [x] 3-1: _HTML & CSS - Estruturas de página_
 - [x] 3-2: _HTML & CSS - Primeiros passos em CSS_
@@ -27,7 +27,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 3-4: _HTML Semântico_
 - [x] 3-5: _[Projeto - Lessons Learned](https://alvaresju.github.io/projects/lessons-learned/index.html)_
 
-##### Bloco 4: Introdução - JavaScript e Lógica de Programação
+##### Bloco 4: Introdução - JavaScript e Lógica de Programação :white_check_mark:
 
 - [x] 4-1: _JavaScript - Primeiros passos_
 - [x] 4-2: _JavaScript - Array e loop For_
@@ -35,7 +35,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 4-4: _JavaScript - Objetos e funções_
 - [x] 4-5: _Projeto - Playground Functions_
 
-##### Bloco 5: JavaScript: DOM, Eventos e Web Storage
+##### Bloco 5: JavaScript: DOM, Eventos e Web Storage :white_check_mark:
 
 - [x] 5-1: _JavaScript - DOM e seletores_
 - [x] 5-2: _JavaScript - Trabalhando com elementos_
@@ -47,7 +47,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-7: _[Projeto - Adivinhe a Cor](https://alvaresju.github.io/projects/color-guess/index.html)_
 - [x] 5-7: _[Projeto - Carta Misteriosa](https://alvaresju.github.io/projects/mistery-letter/index.html)_
 
-##### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo
+##### Bloco 6: HTML & CSS: Forms, Flexbox e Responsivo :white_check_mark:
 
 - [x] 6-1: _HTML & CSS - Forms_
 - [x] 6-2: _Bibliotecas JavaScript e Frameworks CSS_
@@ -56,14 +56,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 6-5: _CSS Responsivo - Mobile First_
 - [x] 6-6: _[Projeto - Trybewarts](https://alvaresju.github.io/projects/trybewarts/index.html)_
 
-##### Bloco 7: Introdução à JavaScript ES6 & Testes Unitários
+##### Bloco 7: Introdução à JavaScript ES6 & Testes Unitários :white_check_mark:
 
 - [x] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
 - [x] 7-2: _JavaScript ES6 - Fluxo de exceção e Objetos_
 - [x] 7-3: _Primeiros passos em Jest_
 - [x] 7-4: _Projeto - JavaScript Testes Unitários_
 
-##### Bloco 8: Higher Order Functions do JavaScript ES6
+##### Bloco 8: Higher Order Functions do JavaScript ES6 :white_check_mark:
 
 - [x] 8-1: _JavaScript ES6 - Introdução a Higher Order Functions_
 - [x] 8-2: _JavaScript ES6 - Higher Order Functions - forEach, find, some, every, sort_
@@ -73,9 +73,9 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 8-6: _Projeto - Zoo functions_
 
 
-## Desenvolvimento Front-end
+## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 9: JavaScript e Testes Assíncronos
+##### Bloco 9: JavaScript e Testes Assíncronos :hourglass_flowing_sand:
 
 - [ ] 9-1: _JavaScript Assíncrono e Callbacks_
 - [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
@@ -136,7 +136,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [ ] 18-1: _[Projeto - App de Receitas]()_
 
-## Desenvolvimento Back-end :hourglass_flowing_sand:
+## Desenvolvimento Back-end
 
 ##### Bloco 20: IntroduÃ§Ã£o - Bancos de dados relacionais
 
