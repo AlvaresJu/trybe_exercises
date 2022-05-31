@@ -17,9 +17,9 @@ const greet = (temperature) =>
 
 // definição da função sendMarsTemperature...
 const sendMarsTemperature = (getActualMarsTemperature, printmessage) => {
-  const actualTemperature = getActualMarsTemperature();
+  const currentTemperature = getActualMarsTemperature();
   setTimeout(() => {
-    printmessage(actualTemperature);
+    printmessage(currentTemperature);
   }, messageDelay());
 }
 
