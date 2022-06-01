@@ -1,0 +1,15 @@
+{
+  "name": "d01_js-assincrono-e-callbacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ex_3_9.1.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.1.0"
+  }
+}
