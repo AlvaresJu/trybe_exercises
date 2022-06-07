@@ -75,14 +75,14 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 ## Desenvolvimento Front-end :hourglass_flowing_sand:
 
-##### Bloco 9: JavaScript e Testes Assíncronos :hourglass_flowing_sand:
+##### Bloco 9: JavaScript e Testes Assíncronos :white_check_mark:
 
-- [ ] 9-1: _JavaScript Assíncrono e Callbacks_
-- [ ] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
-- [ ] 9-3: _Jest - Testes Assíncronos_
-- [ ] 9-4: _[Projeto - Carrinho de Compras]()_
+- [x] 9-1: _JavaScript Assíncrono e Callbacks_
+- [x] 9-2: _JavaScript Assíncrono - Fetch API e async/await_
+- [x] 9-3: _Jest - Testes Assíncronos_
+- [x] 9-4: _[Projeto - Carrinho de Compras](https://alvaresju.github.io/projects/shopping-cart/index.html)_
 
-##### Bloco 10: Introdução à React
+##### Bloco 10: Introdução à React :hourglass_flowing_sand:
 
 - [ ] 10-1: _'Hello, world!' no React!_
 - [ ] 10-2: _Componentes React_
