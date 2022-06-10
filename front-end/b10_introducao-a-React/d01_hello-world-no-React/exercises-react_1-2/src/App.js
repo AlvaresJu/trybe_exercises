@@ -1,6 +1,6 @@
 const Task = (value) => {
   return (
-    <li>{value}</li>
+    <li key={value}>{value}</li>
   );
 }
 
@@ -9,7 +9,7 @@ const taskList = ['Do Exercises;', 'Study Trybe course content;', 'Get dressed t
 function App() {
   return (
     <ul>
-      { taskList.map((task) => Task(task)) }
+      { taskList.map(Task) }
     </ul>
   );
 }
