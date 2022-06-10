@@ -1,8 +1,13 @@
 import ParaFixarJSX from "./ParaFixarJSX";
+import ParaFixarClasses from "./About";
 
 function App() {
   return (
-    <ParaFixarJSX />
+    <main>
+      <ParaFixarJSX />
+      <br></br>
+      <ParaFixarClasses />
+    </main>
   );
 }
 

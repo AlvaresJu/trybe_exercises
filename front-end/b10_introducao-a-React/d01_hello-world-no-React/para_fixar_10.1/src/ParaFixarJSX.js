@@ -4,10 +4,10 @@ class ParaFixarJSX extends Component {
   render() {
     const textJSX = 'Hello, JSX!';
     return (
-      <div>
+      <section>
         <h1>Para Fixar - JSX</h1>
         <h2>{textJSX}</h2>
-      </div>
+      </section>
     );
   }
 }
