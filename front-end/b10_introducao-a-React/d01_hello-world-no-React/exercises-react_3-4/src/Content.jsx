@@ -25,9 +25,9 @@ const conteudos = [
 
 const addContentList = ({ conteudo, bloco, status }) => {
   return (
-    <ul key={conteudo}>
+    <ul key={conteudo} className="content-card">
       <li>O conteúdo é: {conteudo}</li>
-      <li>Status: {status}</li>
+      <li className="content-line">Status: {status}</li>
       <li>Bloco: {bloco}</li>
     </ul>
   );
@@ -36,7 +36,7 @@ const addContentList = ({ conteudo, bloco, status }) => {
 class Content extends React.Component {
   render() {
     return (
-      <main>
+      <main className="main">
         {conteudos.map(addContentList)}
       </main>
     );
