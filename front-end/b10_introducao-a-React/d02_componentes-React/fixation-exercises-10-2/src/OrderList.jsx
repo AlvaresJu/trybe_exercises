@@ -25,7 +25,8 @@ class OrderList extends React.Component {
 
     return (
       <div className='orderList'>
-        <h1> Orders recently created </h1>
+        <h1>Fixation Exercise 2 - Components composition</h1>
+        <h2> Orders recently created </h2>
         <Order order={headphone}/>
         <Order order={energyDrink}/>
       </div>
