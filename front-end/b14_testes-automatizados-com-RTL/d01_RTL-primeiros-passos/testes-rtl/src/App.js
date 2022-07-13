@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import ValidEmail from './ValidEmail';
 
 class App extends Component {
