@@ -1,0 +1,114 @@
+/*
+ * @see http://www.paulirish.com/2012/box-sizing-border-box-ftw/
+ * apply a natural box layout model to all elements, but allowing components to change
+ */
+ html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 20px 30px;
+}
+
+article {
+  font-size: 1.2rem;
+  margin: 20px auto;
+}
+
+article p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+img {
+	max-width: 100%;
+}
+
+figure {
+	margin-bottom: 40px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: rgb(231, 213, 213);
+    margin: 50px 70px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  h2 {
+    font-size: 1.7rem;
+    margin-bottom: 25px;
+  }
+
+  article p {
+    margin-bottom: 15px;
+  }
+
+  article {
+    font-size: 1.4rem;
+    margin: 30px auto;
+  }
+
+  section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  figure {
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  html {
+    margin: 0 80px;
+  }
+  
+  body {
+    background-color: rgb(217, 231, 213);
+    margin: 80px auto;
+    max-width: 940px;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+  }
+  
+  h2 {
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+  }
+  
+  article p {
+    margin-bottom: 20px;
+  }
+
+  article {
+    font-size: 1.6rem;
+    margin: 40px auto;
+  }
+}
