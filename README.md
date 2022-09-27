@@ -73,7 +73,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 8-6: _Projeto - Zoo functions_
 
 
-## Desenvolvimento Front-end :hourglass_flowing_sand:
+## Desenvolvimento Front-end :white_check_mark:
 
 ##### Bloco 9: JavaScript e Testes Assíncronos :white_check_mark:
 
@@ -82,157 +82,159 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 9-3: _Jest - Testes Assíncronos_
 - [x] 9-4: _[Projeto - Carrinho de Compras](https://alvaresju.github.io/projects/shopping-cart/index.html)_
 
-##### Bloco 10: Introdução à React :hourglass_flowing_sand:
+##### Bloco 10: Introdução à React :white_check_mark:
 
-- [ ] 10-1: _'Hello, world!' no React!_
-- [ ] 10-2: _Componentes React_
-- [ ] 10-3: _[Projeto - Sistema Solar]()_
+- [x] 10-1: _'Hello, world!' no React!_
+- [x] 10-2: _Componentes React_
+- [x] 10-3: _[Projeto - Sistema Solar]()_
 
-##### Bloco 11: Componentes com Estado, Eventos e Formulários com React
+##### Bloco 11: Componentes com Estado, Eventos e Formulários com React :white_check_mark:
 
-- [ ] 11-1: _Components com estado e eventos_
-- [ ] 11-2: _Formulários no React_
+- [x] 11-1: _Components com estado e eventos_
+- [x] 11-2: _Formulários no React_
 - [ ] 11-3: _[Projeto - Tryunfo]()_
 
-##### Bloco 12: Ciclo de Vida de Componentes e React Router
+##### Bloco 12: Ciclo de Vida de Componentes e React Router :white_check_mark:
 
-- [ ] 12-1: _Ciclo de vida de componentes_
-- [ ] 12-2: _React Router_
-- [ ] 12-3: _[Projeto - TrybeTunes]()_
+- [x] 12-1: _Ciclo de vida de componentes_
+- [x] 12-2: _React Router_
+- [x] 12-3: _[Projeto - TrybeTunes]()_
 
-##### Bloco 13: Metodologias Ágeis
+##### Bloco 13: Metodologias Ágeis :white_check_mark:
 
-- [ ] 13-1: _Metodologias Ágeis_
-- [ ] 13-2: _[Projeto - Frontend Online Store]()_
+- [x] 13-1: _Metodologias Ágeis_
+- [x] 13-2: _[Projeto - Frontend Online Store]()_
 
-##### Bloco 14: Testes automatizados com React Testing Library
+##### Bloco 14: Testes automatizados com React Testing Library :white_check_mark:
 
-- [ ] 14-1: _RTL - Primeiros passos_
-- [ ] 14-2: _RTL - Mocks e Inputs_
-- [ ] 14-3: _RTL - Testando React Router_
-- [ ] 14-4: _[Projeto - Testes em React]()_
+- [x] 14-1: _RTL - Primeiros passos_
+- [x] 14-2: _RTL - Mocks e Inputs_
+- [x] 14-3: _RTL - Testando React Router_
+- [x] 14-4: _[Projeto - Testes em React]()_
 
-##### Bloco 15: Gerenciamento de estado com Redux
+##### Bloco 15: Gerenciamento de estado com Redux :white_check_mark:
 
-- [ ] 15-1: _Introdução ao Redux - O estado global da aplicação_
-- [ ] 15-2: _Usando o Redux no React_
-- [ ] 15-3: _Usando o Redux no React - Prática_
-- [ ] 15-4: _Usando o Redux no React - Actions Assíncronas_
-- [ ] 15-5: _Testes em React-Redux_
-- [ ] 15-6: _[Projeto - Trybe Wallet]()_
+- [x] 15-1: _Introdução ao Redux - O estado global da aplicação_
+- [x] 15-2: _Usando o Redux no React_
+- [x] 15-3: _Usando o Redux no React - Prática_
+- [x] 15-4: _Usando o Redux no React - Actions Assíncronas_
+- [x] 15-5: _Testes em React-Redux_
+- [x] 15-6: _[Projeto - Trybe Wallet]()_
 
-##### Bloco 16: Projeto Jogo de Trivia
+##### Bloco 16: Projeto Jogo de Trivia :white_check_mark:
 
-- [ ] 16-1: _[Projeto - Jogo de Trivia]()_
+- [x] 16-1: _[Projeto - Jogo de Trivia]()_
 
-##### Bloco 17: Context API e React Hooks
+##### Bloco 17: Context API e React Hooks :white_check_mark:
 
-- [ ] 17-1: _Context API do React_
-- [ ] 17-2: _React Hooks - useState e useContext_
-- [ ] 17-3: _React Hooks - useEffect e Hooks customizados_
-- [ ] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
+- [x] 17-1: _Context API do React_
+- [x] 17-2: _React Hooks - useState e useContext_
+- [x] 17-3: _React Hooks - useEffect e Hooks customizados_
+- [x] 17-4: _[Projeto - StarWars Datatable com Context API e Hooks]()_
 
-##### Bloco 18: Projeto App de Receitas
+##### Bloco 18: Projeto App de Receitas :white_check_mark:
 
-- [ ] 18-1: _[Projeto - App de Receitas]()_
+- [x] 18-1: _[Projeto - App de Receitas]()_
 
-## Desenvolvimento Back-end
+## Desenvolvimento Back-end :hourglass_flowing_sand:
 
-##### Bloco 20: IntroduÃ§Ã£o - Bancos de dados relacionais
+##### Bloco 19: Docker: Utilizando Containers :white_check_mark:
 
-- [ ] 20-1: _Banco de dados SQL_
-- [ ] 20-2: _Encontrando dados em um banco de dados_
-- [ ] 20-3: _Filtrando dados de forma especÃ­fica_
-- [ ] 20-4: _Manipulando tabelas_
-- [ ] 20-5: _[Projeto - All For One]()_
+- [x] 19-1: _Utilizando Containers - Docker_
+- [x] 19-2: _Manipulando Imagens no Docker_
+- [x] 19-3: _Orquestrando Containers com Docker Compose_
+- [x] 19-4: _[Projeto - Dcoker Todo-List]()_
 
-##### Bloco 21: Bancos de dados relacionais
+##### Bloco 20: Introdução à SQL :white_check_mark:
 
-- [ ] 21-1: _FunÃ§Ãµes mais usadas no SQL_
-- [ ] 21-2: _Descomplicando JOINs e UNIONs_
-- [ ] 21-3: _Stored Routines & Subqueries_
-- [ ] 21-4: _[Projeto - Vocabulary Booster]()_
+- [x] 20-1: _Banco de dados SQL_
+- [x] 20-2: _Encontrando dados em um banco de dados_
+- [x] 20-3: _Filtrando dados de forma específica_
+- [x] 20-4: _Manipulando tabelas_
+- [x] 20-5: _[Projeto - All For One]()_
 
-##### Bloco 22: Bancos de dados relacionais
+##### Bloco 21: Funções SQL, JOINs e Normalização :white_check_mark:
 
-- [ ] 22-1: _Transformando ideias em um modelo de banco de dados_
-- [ ] 22-2: _NormalizaÃ§Ã£o, Formas Normais e Dumps_
-- [ ] 22-2: _Transformando ideias em um modelo de banco de dados - Parte 2_
-- [ ] 22-3: _[Projeto - One For All]()_
+- [x] 21-1: _Funções mais usadas no SQL_
+- [x] 21-2: _Descomplicando JOINs_
+- [x] 21-3: _Transformando ideias em um modelo de banco de dados_
+- [x] 21-4: _[Projeto - One For All]()_
 
-##### Bloco 23: IntroduÃ§Ã£o - NoSQL
+##### Bloco 22: Introdução ao desenvolvimento WEB com Node.js :hourglass_flowing_sand:
 
-- [ ] 23-1: _MongoDB - IntroduÃ§Ã£o_
-- [ ] 23-2: _Filter Operators_
-- [ ] 23-3: _[Projeto - Data Flights]()_
+- [ ] 22-1: _Node.js: Runtime Assíncrono_
+- [ ] 22-2: _Node.js: API REST com Express_
+- [ ] 22-3: _Node.js: Testes de Integração_
+- [ ] 22-4: _Node.js: Express e Middlewares_
+- [ ] 22-5: _Node.js: Express e MySQL_
+- [ ] 22-6: _[Projeto - Talker Manager]()_
 
-##### Bloco 24: Updates
+##### Bloco 23: Arquitetura de Software: Model, Service e Controller
+- [ ] 23-1: _Arquitetura de Software: Camada Model_
+- [ ] 23-2: _Arquitetura de Software: Camada Service_
+- [ ] 23-3: _Arquitetura de Software: Camada Controller_
+- [ ] 23-4: _[Projeto - Store Manager]()_
 
-- [ ] 24-1: _Updates Simples_
-- [ ] 24-2: _Updates Complexos - Arrays - Parte 1_
-- [ ] 24-3: _Updates Complexos - Arrays - Parte 2_
-- [ ] 24-4: _[Projeto - Commerce]()_
+##### Bloco 24: Node.js: ORM e Autenticação
 
-##### Bloco 25: Aggregation Framework
+- [ ] 24-1: _ORM - Interface da aplicação com o banco de dados_
+- [ ] 24-2: _ORM - Associations 1:1 e 1:N_
+- [ ] 24-3: _ORM - Associations N:N e Transactions_
+- [ ] 24-4: _JWT - (JSON Web Token)_
+- [ ] 24-5: _[Projeto - API de Blogs]()_
 
-- [ ] 25-1: _Aggregation Framework - Part 1_
-- [ ] 25-2: _Aggregation Framework - Part 2_
-- [ ] 25-3: _[Projeto - Aggregations]()_
+##### Bloco 25: Deployment
 
-##### Bloco 26: Intro - NodeJS
+- [ ] 25-1: _Infraestrutura - Deploy com Heroku_
+- [ ] 25-2: _Deploy Docker & Heroku_
+- [ ] 25-3: _[Projeto - Stranger Things]()_
 
-- [ ] 26-1: _NodeJS - IntroduÃ§Ã£o_
-- [ ] 26-2: _NodeJS - Fluxo AssÃ­ncrono_
-- [ ] 26-3: _NodeJS - Arquitetura_
-- [ ] 26-4: _[Projeto - A CLI of Ice and Fire]()_
+##### Bloco 26: Introdução a TypeScript
 
-##### Bloco 27: NodeJS
+- [ ] 26-1: _Introdução ao TypeScript_
+- [ ] 26-2: _Tipagem Estática e Generics_
+- [ ] 26-3: _Express com TypeScript_
+- [ ] 26-4: _[Projeto - Trybesmith]()_
 
-- [ ] 27-1: _Express: HTTP com Node.js_
-- [ ] 27-2: _Arquitetura de Software - IntroduÃ§Ã£o ao MVC_
-- [ ] 27-3: _[Projeto - Cookmaster]()_
+##### Bloco 27: Programação Orientada a Objetos (POO) e SOLID
 
-##### Bloco 28: NodeJS
+- [ ] 27-1: _Introdução à Orientação a Objetos_
+- [ ] 27-2: _Herança e Interfaces_
+- [ ] 27-3: _Polimorfismo_
+- [ ] 27-4: _SOLID - Introdução e Princípios S, O e D_
+- [ ] 27-5: _SOLID - Princípios L i I_
+- [ ] 27-6: _[Projeto - Trybers and Dragons]()_
 
-- [ ] 28-1: _Arquitetura de Software - Camada de ServiÃ§o_
-- [ ] 28-2: _Arquitetura web - Rest e Restful_
-- [ ] 28-3: _[Projeto - Store Manager]()_
+##### Bloco 28: Projeto - TFC - Trybe Futebol Clube
 
-##### Bloco 29: NodeJS
+- [ ] 28-1: _[Projeto - TFC - Trybe Futebol Clube]()_
 
-- [ ] 29-1: _NodeJS - JWT - (JSON Web Token)_
-- [ ] 29-2: _NodeJS - Upload de arquivos com Multer_
-- [ ] 29-3: _[Projeto - Cookmaster V2]()_
+##### Bloco 29: Introdução ao MongoDB
 
-##### Bloco 30: IntroduÃ§Ã£o - Deploy
+- [ ] 29-1: _MongoDB - Introdução_
+- [ ] 29-2: _Filter Operators_
+- [ ] 29-3: _Operadores de consulta_
+- [ ] 29-4: _Updates Simples_
+- [ ] 29-5: _Updates Complexos - Arrays_
+- [ ] 29-6: _[Projeto - Commerce]()_
 
-- [ ] 30-1: _Infraestrutura - Deploy com Heroku_
-- [ ] 30-2: _Deploy - Gerenciadores de Processos_
-- [ ] 30-3: _[Projeto - Stranger Things]()_
+##### Bloco 30: MongoDB com Node.js e POO
 
-##### Bloco 31: Projeto
+- [ ] 30-1: _Mongoose e arquitetura MSC (Camada Model)_
+- [ ] 30-2: _Mongoose e arquitetura MSC (Camada Service e Controller)_
+- [ ] 30-3: _[Projeto - Car Shop]()_
 
-- [ ] 31-1: _[Projeto - Trybeer]()_
+##### Bloco 31: Projeto - App de Delivery
 
-##### Bloco 32: Arquitetura de Software
+- [ ] 31-1: _[Projeto - App de Delivery]()_
 
-- [ ] 32-1: _Arquitetura - PrincÃ­pios SOLID_
-- [ ] 32-2: _ORM - Interface da aplicaÃ§Ã£o com o banco de dados_
-- [ ] 32-3: _Arquitetura de Software - DDD_
-- [ ] 32-4: _Boas prÃ¡ticas na escrita de testes_
-- [ ] 32-3: _[Projeto - API de Blogs]()_
+##### Bloco 32: MasterClass - VPS, CI/CU
 
-##### Bloco 33: Sockets
+- [ ] 32-1: _VPS_
+- [ ] 32-2: _Dia 2_
 
-- [ ] 30-1: _Sockets - TCP/UDP & NET_
-- [ ] 30-2: _Sockets - Socket.io_
-- [ ] 30-3: _[Projeto - Webchat]()_
 
-##### Bloco 34: Projeto
-
-- [ ] 34-1: _[Projeto - Trybeer V2]()_
-
-## CiÃªncia da ComputaÃ§Ã£o :hourglass_flowing_sand:
+## Ciência da Computação
 
 ##### Bloco 35: IntroduÃ§Ã£o - CiÃªncia da ComputaÃ§Ã£o
 
