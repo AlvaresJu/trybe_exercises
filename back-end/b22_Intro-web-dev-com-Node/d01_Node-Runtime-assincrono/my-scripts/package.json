@@ -4,7 +4,7 @@
   "description": "",
   "main": "bmi.js",
   "scripts": {
-    "start": "node src/bmi.js",
+    "bmi": "node src/bmi.js",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json ."
   },
   "keywords": [],
