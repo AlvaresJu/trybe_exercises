@@ -1,17 +1,47 @@
 const readline = require('readline-sync');
 
+const BMIrange = [
+  {
+    BMICategory: 'Underweight',
+    minBMI: 0,
+    maxBMI: 18.4,
+  },
+  {
+    BMICategory: 'Normal Weight',
+    minBMI: 18.5,
+    maxBMI: 24.9,
+  },
+  {
+    BMICategory: 'Overweight',
+    minBMI: 25,
+    maxBMI: 29.9,
+  },
+  {
+    BMICategory: 'Obese Class I',
+    minBMI: 30.0,
+    maxBMI: 34.9,
+  },
+  {
+    BMICategory: 'Obese Class II',
+    minBMI: 35,
+    maxBMI: 39.9,
+  },
+  {
+    BMICategory: 'Obese Class III and IV',
+    minBMI: 40,
+    maxBMI: 210,
+  },
+];
+
 function calculatesBMI(weight, height) {
   const bmi = weight / (height ** 2);
   return bmi;
 }
 
 function setBMICategory(bmi) {
-  if (bmi < 18.5) return 'Underweight (thin)';
-  if (bmi >= 18.5 && bmi < 25) return 'Normal weight';
-  if (bmi >= 25 && bmi < 30) return 'Overweight';
-  if (bmi >= 30 && bmi < 35) return 'Grade I obesity';
-  if (bmi >= 35 && bmi < 40) return 'Grade II obesity';
-  return 'Grade III and IV obesity';
+  const BMICategoryData = BMIrange
+    .find((category) => bmi >= category.minBMI && bmi < category.maxBMI);
+  return BMICategoryData.BMICategory;
 }
 
 function main() {
