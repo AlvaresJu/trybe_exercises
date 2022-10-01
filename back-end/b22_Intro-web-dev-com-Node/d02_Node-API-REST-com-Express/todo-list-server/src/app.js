@@ -20,4 +20,10 @@ const activities = [
   },
 ];
 
+app.get('/myActivities/:id', (req, res) => {
+  const { id } = req.params;
+  const activityById = activities.find((activity) => activity.id === Number(id));
+  return res.status(200).json({ activity: activityById });
+});
+
 module.exports = app;
