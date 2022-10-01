@@ -28,4 +28,10 @@ app.get('/myActivities/:id', (req, res) => {
   return res.status(200).json({ activity: activityById });
 });
 
+app.get('/filter/myActivities', (req, res) => {
+  const { status } = req.query;
+  const activitiesByStatus = activities.filter((activity) => activity.status === status);
+  return res.status(200).json({ activities: activitiesByStatus });
+});
+
 module.exports = app;
