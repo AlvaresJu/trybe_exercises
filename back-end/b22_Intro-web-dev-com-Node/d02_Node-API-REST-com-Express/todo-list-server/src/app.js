@@ -20,6 +20,8 @@ const activities = [
   },
 ];
 
+app.get('/myActivities', (_req, res) => res.status(200).json({ activities }));
+
 app.get('/myActivities/:id', (req, res) => {
   const { id } = req.params;
   const activityById = activities.find((activity) => activity.id === Number(id));
