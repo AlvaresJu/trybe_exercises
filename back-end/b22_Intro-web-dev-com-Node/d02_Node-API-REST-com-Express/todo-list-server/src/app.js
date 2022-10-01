@@ -34,4 +34,11 @@ app.get('/filter/myActivities', (req, res) => {
   return res.status(200).json({ activities: activitiesByStatus });
 });
 
+app.get('/search/myActivities', (req, res) => {
+  const { q } = req.query;
+  const activitiesByDescription = activities
+    .filter((activity) => activity.description.toLowerCase().includes(q.toLowerCase()));
+  return res.status(200).json({ activities: activitiesByDescription });
+});
+
 module.exports = app;
