@@ -1,0 +1,22 @@
+{
+  "name": "ecotourism-activities",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "src/server.js",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-patter -c .eslintrc.json .",
+    "dev": "nodemon src/server.js"
+  },
+  "author": "Juliana Alvares",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "6.8",
+    "eslint-config-trybe-backend": "1.0",
+    "nodemon": "^2.0.20"
+  }
+}
