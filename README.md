@@ -43,7 +43,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 - [x] 5-4: _JavaScript - Web Storage_
 - [x] 5-5: _[Projeto - Arte com Pixels](https://alvaresju.github.io/projects/pixels-art/index.html)_
 - [x] 5-6: _[Projeto - Lista de tarefas](https://alvaresju.github.io/projects/todo-list/index.html)_
-- [ ] 5-7: _[Projeto - Meme Generator]()_
+- [x] 5-7: _[Projeto - Meme Generator]()_
 - [x] 5-7: _[Projeto - Adivinhe a Cor](https://alvaresju.github.io/projects/color-guess/index.html)_
 - [x] 5-7: _[Projeto - Carta Misteriosa](https://alvaresju.github.io/projects/mistery-letter/index.html)_
 
@@ -92,7 +92,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online, aborda i
 
 - [x] 11-1: _Components com estado e eventos_
 - [x] 11-2: _Formulários no React_
-- [ ] 11-3: _[Projeto - Tryunfo]()_
+- [x] 11-3: _[Projeto - Tryunfo]()_
 
 ##### Bloco 12: Ciclo de Vida de Componentes e React Router :white_check_mark:
 
