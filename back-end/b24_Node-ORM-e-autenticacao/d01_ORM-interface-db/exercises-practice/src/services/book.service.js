@@ -11,7 +11,13 @@ const getById = async (id) => {
   return { status: 200, result: book };
 }
 
+const create = async (title, author, pageQuantity) => {
+  const newBook = await Book.create({ title, author, pageQuantity });
+  return { status: 201, result: newBook };
+}
+
 module.exports = {
   getAll,
   getById,
+  create,
 };
