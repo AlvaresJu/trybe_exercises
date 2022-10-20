@@ -22,9 +22,16 @@ const update = async (id, title, author, pageQuantity) => {
   return { status: 200, result: { message: 'Book updated!' } };
 }
 
+const remove = async (id) => {
+  const removedBook = await Book.destroy({ where: { id } });
+  if (!removedBook) return { status: 404, result: { message: 'Book not found' } };
+  return { status: 200, result: { message: 'Book removed' } };
+}
+
 module.exports = {
   getAll,
   getById,
   create,
   update,
+  remove,
 };
