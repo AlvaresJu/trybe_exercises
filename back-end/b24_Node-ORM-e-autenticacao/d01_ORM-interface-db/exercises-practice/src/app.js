@@ -9,6 +9,7 @@ app.use(express.json());
 app.get('/books', BookController.getAll);
 app.get('/books/:id', BookController.getById);
 app.post('/books', BookController.create);
+app.put('/books/:id', BookController.update);
 
 app.use((err, _req, res, _next) => {
   const { status, message } = err;
