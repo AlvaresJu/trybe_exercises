@@ -1,12 +1,12 @@
 function convert(value: number, baseUnit: string, convertionUnit: string): number {
   const convertionTable = [
-    { unit: 'km', value: 1000 },
-    { unit: 'hm', value: 100 },
-    { unit: 'dam', value: 10 },
-    { unit: 'm', value: 1 },
-    { unit: 'dm', value: 0.1 },
-    { unit: 'cm', value: 0.01 },
-    { unit: 'mm', value: 0.001 }
+    { unit: 'kg', value: 1000 },
+    { unit: 'hg', value: 100 },
+    { unit: 'dag', value: 10 },
+    { unit: 'g', value: 1 },
+    { unit: 'dg', value: 0.1 },
+    { unit: 'cg', value: 0.01 },
+    { unit: 'mg', value: 0.001 }
   ];
 
   const baseIndex = convertionTable.findIndex(({ unit }) => unit === baseUnit);
