@@ -1,52 +1,54 @@
-export default class Student {
-  private _registration: string;
-  private _name: string | undefined;
-  private _testScores: number[];
-  private _workScores: number[];
+import crypto from 'node:crypto';
+import Person from './Person';
 
-  constructor(registration: string, name: string) {
-    this._registration = registration;
-    this.name = name;
-    this._testScores = [];
-    this._workScores = [];
+export default class Student extends Person {
+  private _enrollment: string;
+  private _examsGrades: number[] = [];
+  private _worksGrades: number[] = [];
+
+  constructor(name: string, birthDate: Date) {
+    super(name, birthDate);
+    this._enrollment = Student.generateEnrollment();
   }
 
-  get registration() { return this._registration; }
- 
-  get name() { return this._name || ''; }
+  get enrollment() { return this._enrollment; }
 
-  set name(newName: string) {
-    if (newName.length < 3) {
-      throw new Error('"name" must have 3 or more characters.');
-    } 
-    this._name = newName;
-  }
-
-  get testScores() { return this._testScores; }
-
-  set testScores(scores: number[]) {
-    if (scores.length > 4) {
-      throw new Error('Only 4 test scores can be registered.');
+  set enrollment(newEnrollment: string) {
+    if (newEnrollment.length < 16) {
+      throw new Error('The "enrollment" must have at least 16 characters.');
     }
-    this._testScores = scores;
+    this._enrollment = newEnrollment;
   }
 
-  get workScores() { return this._workScores; }
+  get examsGrades() { return this._examsGrades; }
 
-  set workScores(scores: number[]) {
-    if (scores.length > 2) {
-      throw new Error('Only 2 work scores can be registered.');
+  set examsGrades(grades: number[]) {
+    if (grades.length > 4) {
+      throw new Error('Only 4 test grades can be registered.');
     }
-    this._workScores = scores;
+    this._examsGrades = grades;
   }
 
-  calculateTotalScore(): number {
-    return [...this._testScores, ...this._workScores]
-      .reduce((total, score) => total + score);
+  get worksGrades() { return this._worksGrades; }
+
+  set worksGrades(grades: number[]) {
+    if (grades.length > 2) {
+      throw new Error('Only 2 work grades can be registered.');
+    }
+    this._worksGrades = grades;
   }
 
-  calculateAverageScore(): number {
-    const scoreQuantity = this._testScores.length + this._workScores.length;
-    return this.calculateTotalScore() / scoreQuantity;
+  sumGrades(): number {
+    return [...this._examsGrades, ...this._worksGrades]
+      .reduce((total, grade) => total + grade);
+  }
+
+  sumAverageGrade(): number {
+    const scoreQuantity = this._examsGrades.length + this._worksGrades.length;
+    return this.sumGrades() / scoreQuantity;
+  }
+
+  static generateEnrollment(): string {
+    return crypto.randomBytes(8).toString('hex');
   }
 }
