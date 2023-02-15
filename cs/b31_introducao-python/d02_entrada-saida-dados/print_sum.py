@@ -9,7 +9,7 @@ Escreva um programa que receba vários números naturais
 """
 
 str_input = input(
-    'Entre com valores a serem somados, separados por um espaço '
+    "Entre com valores a serem somados, separados por um espaço "
 )
 str_number_list = str_input.split()
 

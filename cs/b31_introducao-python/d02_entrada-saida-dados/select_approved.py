@@ -7,11 +7,11 @@ Dado um arquivo contendo estudantes e suas respectivas notas,
 3. escreva seus nomes em outro arquivo.
 Obs.: Considere que a nota miníma para aprovação é 6.
 """
-with open('data_files/ex3_in_practice.txt', 'r') as file:
-    approved_list = [line.split()[0] + '\n'
-                     for line in file
-                     if int(line.split()[1]) < 6]
+with open("data_files/ex3_in_practice.txt", "r") as file:
+    approved_list = [
+        line.split()[0] + "\n" for line in file if int(line.split()[1]) < 6
+    ]
 
 
-with open('data_files/ex3_approved_result.txt', 'w') as result_file:
+with open("data_files/ex3_approved_result.txt", "w") as result_file:
     result_file.writelines(approved_list)
